@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;  
+  }
+
+  body{
+    background: url("./man-s-portrait-red-studio-wall-multicolored-neon-light.jpg");
+    background-size: 100%;
+
+  }
+
+ .logo h2{
+    color: white;
+  }
+
+  .menu{
+      display: flex;
+      justify-content: space-around;
+        width: 100%;
+        color: white;
+        
+  }
+
+  .menu a{
+    text-decoration: none;
+    color: white;
+    transition: all ease-in 30ms;
+  }
+  .menu a:hover{
+    text-decoration: none;
+    color: aqua;
+    transition: all ease-in 30ms;
+  }
+
+  .menu li{
+   list-style: none;
+   
+  }
+
+  .box{
+    position: relative;
+    left: 97vh;
+    top: 20vh;
+    height: 300px;
+    width: 300px;
+    padding: 5px;
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(6,92,81,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .box h1{
+    font-size: 70px;
+    color: white;
+  }
+
